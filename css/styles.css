@@ -1,11 +1,64 @@
+/* основний колір тексту  #434455 */
+/* втоичний колір тексту #2E2F42 */ 
+/* білий #FFFFFF */
+/* акцент #4D5AE5 */ 
+/* колір 3 секції #F4F4FD */
+/* колір футера і хедера #2E2F42 */
+/* колір тексту в футері #E7E9FC */
+
+:root {
+ --primary-text-color: #434455;
+ --secondary-text-color: #2e2f42;
+ --accent-color: #4D5AE5; 
+ --primary-bg-color: #ffffff;
+ --secondary-bg-color: #F4F4FD;
+ --bg-color-foot-head: #2E2F42;
+ --text-footer-color: #E7E9FC
+ 
+}
 body {
-    position: relative;
-    width: 1440px;
-    height: 2593px;
-    background: #ffffff;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 24px;
+   background-color: #FFFFFF;
+    color: var(--primary-text-color);  
+}
+
+
+/* header logo */
+.logo-link {
+   color: var(--secondary-text-color);
+}
+.logo-link:hover,
+.logo-link:focus {
+    color: var(--accent-color)
+}
+.logo {
+    color: var(--accent-color);
+}
+/* header nav links */
+.nav-links a {
+    color: var(--secondary-text-color);
+}
+.nav-links a:hover,
+.nav-links a:focus {
+    color: var(--accent-color);
+}
+/* header contacts */
+.contact a {
+    color: var(--primary-text-color);
+}
+.contact a:hover,
+.contact a:focus {
+    color: var(--accent-color);
+}
+/* main hero section */
+/* добавив background тому що не видно текст */
+.hero h1 {
+    background-color: var(--bg-color-foot-head);
+    color: var(--primary-bg-color)
+}
+/* hero button */
+.hero-button {
+    background-color: var(--accent-color);
+}
+.hero-button-text {
+    color: var(--primary-bg-color);
 }
