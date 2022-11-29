@@ -27,6 +27,7 @@ body {
 .logo-link {
     Font-family: Raleway;
     Font-style: ExtraBold;
+    font-weight: 800;
     Font-size: 18px;
     Line-height: 1.14;
     Letter-spacing: 3%;
@@ -45,6 +46,7 @@ body {
 .nav-list {
     Font-family: inherit;
     Font-style: SemiBold;
+    font-weight: 600;
     Font-size: 16px;
     Line-height: 1.28;
     Letter-spacing: 2%;
@@ -58,6 +60,7 @@ body {
 /* header contacts */
 .contact-links {
     Font-family: inherit;
+    Font-style: Regular; 
     Font-size: 16px;
     Line-height: 1.28%;
     Letter-spacing: 2%;
@@ -73,6 +76,7 @@ body {
 .hero-title{
     Font-family: inherit;
     Font-style: SemiBold;
+    font-weight: 600;
     Font-size: 56px;
     Line-height: 0.91;
     Letter-spacing: 2%;  
@@ -81,23 +85,30 @@ body {
 }
 /* hero button */
 .hero-btn {
-    background-color: var(--accent-color)
-}
-
-.hero-button-text {
-    Font-family: inherit;
+     Font-family: inherit;
     Font-style: SemiBold;
+    font-weight: 600;
     Font-size: 16px;
     Line-height: 1;
     Letter-spacing: 4%;
     color: var(--primary-bg-color);
+    background-color: var(--accent-color);
+
+    cursor: pointer;
 }
+
+.hero-btn:hover,
+.hero-btn:focus {
+    background-color: #404BBF;
+}
+
  /* section qualities */
  
 
  .qualities-list-title {
     Font-family: inherit;
     Font-style: SemiBold;
+    font-weight: 600;
     Font-size: 20px;
     Line-height: 1.02;
     Letter-spacing: 2%;
@@ -106,6 +117,7 @@ body {
 
  .qualities-description {
     Font-family: inherit;
+    Font-style: Regular;
     Font-size: 16px;
     Line-height: 1.28;
     Letter-spacing: 2%;
@@ -118,6 +130,7 @@ body {
  .work-title {
     Font-family: inherit;
     Font-style: SemiBold;
+    font-weight: 600;
     Font-size: 36px;
     Line-height: 0.95;
     Letter-spacing: 2%;
@@ -129,6 +142,7 @@ body {
  .team-title {
     Font-family: inherit;
     Font-style: SemiBold;
+    font-weight: 600;
     Font-size: 36px;
     Line-height: 0.95;
     Letter-spacing: 2%;
@@ -138,6 +152,7 @@ body {
  .team-titles {
     Font-family: inherit;
     Font-style: SemiBold;
+    font-weight: 600;
     Font-size: 20px;
     Line-height: 1.02;
     Letter-spacing: 2%;
@@ -146,6 +161,7 @@ body {
 
  .specialty  {
     Font-family: inherit;
+    Font-style: Regular;
     Font-size: 16px;
     Line-height: 1.28;
     Letter-spacing: 2% ;   
@@ -156,8 +172,75 @@ body {
 
  .footer-text {
     Font-family: inherit; 
+    Font-style: Regular;
     Font-size: 16px;
     Line-height: 1.28;
     Letter-spacing: 2%;  
     color: var(--text-footer-color); 
  }
+
+ .logo-footer {
+    font-style: normal;
+ }
+
+/* portfolio main page */
+
+.main-title {
+  color: var(--secondary-text-color);  
+}
+
+/* filter button */
+
+.filter-btn {
+    Font-family: inherit;
+    Font-style: SemiBold;
+    font-weight: 600;
+    Font-size: 16px;
+    Line-height: 1.28;
+    Letter-spacing: 4%;
+    color: var(--accent-color);
+    background-color: var(--secondary-bg-color);
+
+    cursor: pointer;
+}
+.filter-btn:hover,
+.filter-btn:focus {
+    background-color:  var(--accent-color);
+    color: var(--primary-bg-color);
+}
+
+
+/* section gallery */
+
+.gallery-list a{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.gallery-title {
+    Font-family: inherit;   
+    Font-style: SemiBold;
+    font-weight: 600;
+    Font-size: 20px;
+    Line-height: 1.02;
+    Letter-spacing: 2%;
+    color: var(--secondary-text-color);
+}
+
+.gallery-product {
+    Font-family: inherit;
+    Font-style: Regular;
+    Font-size: 16px;
+    Line-height: 1.28;
+    Letter-spacing: 2%;
+    color: var(--primary-text-color);
+}
+
+.gallery-text {
+    Font-family: inherit;
+    Font-style: Regular;
+    Font-size: 16px;
+    Line-height: 1.28;
+    Letter-spacing: 2%;
+    color: var(--secondary-bg-color);
+}
