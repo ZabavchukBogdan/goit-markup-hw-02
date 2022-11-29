@@ -18,13 +18,21 @@
 }
 body {
    background-color: #FFFFFF;
-    color: var(--primary-text-color);  
+    color: var(--primary-text-color); 
+    font-family: 'Roboto', 'Raleway', sans-serif;
 }
 
 
 /* header logo */
 .logo-link {
-   color: var(--secondary-text-color);
+    Font-family: Raleway;
+    Font-style: ExtraBold;
+    Font-size: 18px;
+    Line-height: 1.14;
+    Letter-spacing: 3%;
+    text-decoration: none; 
+    color: var(--secondary-text-color);
+    
 }
 .logo-link:hover,
 .logo-link:focus {
@@ -34,31 +42,122 @@ body {
     color: var(--accent-color);
 }
 /* header nav links */
-.nav-links a {
+.nav-list {
+    Font-family: inherit;
+    Font-style: SemiBold;
+    Font-size: 16px;
+    Line-height: 1.28;
+    Letter-spacing: 2%;
+    text-decoration: none;  
     color: var(--secondary-text-color);
 }
-.nav-links a:hover,
-.nav-links a:focus {
+.nav-list:hover,
+.nav-list:focus {
     color: var(--accent-color);
 }
 /* header contacts */
-.contact a {
+.contact-links {
+    Font-family: inherit;
+    Font-size: 16px;
+    Line-height: 1.28%;
+    Letter-spacing: 2%;
+    text-decoration: none;
     color: var(--primary-text-color);
 }
-.contact a:hover,
-.contact a:focus {
+.contact-links:hover,
+.contact-links:focus {
     color: var(--accent-color);
 }
 /* main hero section */
 /* добавив background тому що не видно текст */
-.hero h1 {
+.hero-title{
+    Font-family: inherit;
+    Font-style: SemiBold;
+    Font-size: 56px;
+    Line-height: 0.91;
+    Letter-spacing: 2%;  
     background-color: var(--bg-color-foot-head);
     color: var(--primary-bg-color)
 }
 /* hero button */
-.hero-button {
-    background-color: var(--accent-color);
+.hero-btn {
+    background-color: var(--accent-color)
 }
+
 .hero-button-text {
+    Font-family: inherit;
+    Font-style: SemiBold;
+    Font-size: 16px;
+    Line-height: 1;
+    Letter-spacing: 4%;
     color: var(--primary-bg-color);
 }
+ /* section qualities */
+ 
+
+ .qualities-list-title {
+    Font-family: inherit;
+    Font-style: SemiBold;
+    Font-size: 20px;
+    Line-height: 1.02;
+    Letter-spacing: 2%;
+    color: var(--secondary-text-color);
+ }
+
+ .qualities-description {
+    Font-family: inherit;
+    Font-size: 16px;
+    Line-height: 1.28;
+    Letter-spacing: 2%;
+    color: inherit;
+
+ }
+
+ /* section work */
+
+ .work-title {
+    Font-family: inherit;
+    Font-style: SemiBold;
+    Font-size: 36px;
+    Line-height: 0.95;
+    Letter-spacing: 2%;
+    color: var(--secondary-text-color);
+ }
+
+ /* section team */
+
+ .team-title {
+    Font-family: inherit;
+    Font-style: SemiBold;
+    Font-size: 36px;
+    Line-height: 0.95;
+    Letter-spacing: 2%;
+    color: var(--secondary-text-color);
+ }
+
+ .team-titles {
+    Font-family: inherit;
+    Font-style: SemiBold;
+    Font-size: 20px;
+    Line-height: 1.02;
+    Letter-spacing: 2%;
+    color: var(--secondary-text-color); 
+ }
+
+ .specialty  {
+    Font-family: inherit;
+    Font-size: 16px;
+    Line-height: 1.28;
+    Letter-spacing: 2% ;   
+    color: inherit;
+ }
+
+ /* footer */
+
+ .footer-text {
+    Font-family: inherit; 
+    Font-size: 16px;
+    Line-height: 1.28;
+    Letter-spacing: 2%;  
+    color: var(--text-footer-color); 
+ }
